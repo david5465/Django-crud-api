@@ -2,3 +2,4 @@ venv/
 config_local.ini
 build/
 *.log
+django_crud_api/__pycache__/
