@@ -84,7 +84,7 @@ The API should now be accessible at http://localhost:8000, and the React fronten
 
 
 ## Usage
-I'm now working in frontend, u can test the api with POSTMAN or the Thunder Cliente en VSC
+I'm now working in frontend, feel free to test the api with POSTMAN or the Thunder Cliente in VSC.
 
 
 ## Contributing
