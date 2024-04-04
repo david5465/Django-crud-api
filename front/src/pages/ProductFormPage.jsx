@@ -11,16 +11,30 @@ export function ProductFormPage(){
                 <input
                     type="sku"
                     placeholder="sku"
-                    {...register("sku", {required: true})}/>
+                    {...register("SKU", {required: true})}/>
                     <input
                     type="barcode"
                     placeholder="barcode"
-                    {...register("barcode", {required: true})}/>
+                    {...register("Barcode", {required: true})}/>
                     <input
                     type="title"
-                    placeholder="title"
+                    placeholder="Title"
                     {...register("title", {required: true})}/>
+                    <input
+                    type="brand"
+                    placeholder="Brand"
+                    {...register("brand", {required: false})}/>
                 <textarea rows="3" placeholder="Description"{...register("description", {required: true})}></textarea>
+                <input
+                    type="number"
+                    placeholder="Cost Price"
+                    step="0.01"
+                    {...register("cost_price", { required: true, maxLength: 12 })}/>
+                <input
+                    type="number"
+                    placeholder="Sale Price"
+                    step="0.01"
+                    {...register("sale_price", { required: true, maxLength: 12 })}/>
                 <button>Save</button>
             </form>
         </div>
